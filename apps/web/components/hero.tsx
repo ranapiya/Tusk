@@ -14,21 +14,21 @@ export function Hero() {
 
       <div className="text-center relative z-10">
         <Pill 
-          className="mb-6"
+          className="mb-6 text-white"
           onMouseEnter={() => setHovering(true)}
           onMouseLeave={() => setHovering(false)}
         >
           BETA RELEASE
         </Pill>
         <h1 
-          className="text-5xl sm:text-6xl md:text-7xl font-sentient"
+          className="text-5xl sm:text-6xl md:text-7xl font-sentient text-white"
           onMouseEnter={() => setHovering(true)}
           onMouseLeave={() => setHovering(false)}
         >
           DomaLens
         </h1>
         <p 
-          className="font-mono text-sm sm:text-base text-foreground/60 text-balance mt-10 max-w-[440px] mx-auto"
+          className="font-mono text-sm sm:text-base  text-balance mt-10 max-w-[440px] mx-auto text-white"
           onMouseEnter={() => setHovering(true)}
           onMouseLeave={() => setHovering(false)}
         >
@@ -37,7 +37,7 @@ export function Hero() {
         
         <div className="mt-6 max-w-[520px] mx-auto">
           <p 
-            className="font-mono text-xs sm:text-sm text-foreground/80 text-balance leading-relaxed"
+            className="font-mono text-xs sm:text-sm text-white/80 text-balance leading-relaxed"
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
           >
