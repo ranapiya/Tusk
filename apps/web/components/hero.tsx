@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { GL } from "./gl";
+
 import { Pill } from "./pill";
 import { Button } from "./ui/button";
 import { useState } from "react";
@@ -10,7 +10,7 @@ export function Hero() {
   const [hovering, setHovering] = useState<boolean>(false);
   return (
     <div className="flex flex-col h-svh justify-center items-center relative">
-      <GL hovering={hovering} />
+     
 
       <div className="text-center relative z-10">
         
